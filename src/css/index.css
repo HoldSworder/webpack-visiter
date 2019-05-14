@@ -1,0 +1,110 @@
+/* @import url('normalize-path'); */
+
+body {
+  color: #B7E2FF;
+}
+
+.container {
+  height: 768px;
+  width: 1024px;
+  background: url(../images/background.jpg) no-repeat fixed;
+}
+
+.person-title {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  top: 73px;
+  left: 214px;
+}
+
+.person-class {
+  width: 200px;
+  height: 200px;
+  transform: scale(0.5, 0.5);
+  position: absolute;
+  top: 85px;
+}
+
+.person-box {
+  position: absolute;
+  left: -15px;
+}
+
+.auth-container {
+  position: absolute;
+  display: inline-block;
+  color: #B7E2FF;
+  font-size: 24px;
+  transform: scale(0.7, 0.7);
+  left: -73px;
+  top: 273px;
+  width: 650px;
+  height: 180px;
+}
+
+.auth-container table {
+  width: 100%;
+  font-size: 16px;
+}
+
+.auth-container table td {
+  text-align: center;
+  border: 1px solid #069;
+}
+
+.auth-title {
+  position: absolute;
+  font-size: 24px;
+  top: -46px;
+  left: 276px;
+}
+
+.car-class {
+  width: 250px;
+  height: 250px;
+  transform: scale(0.6, 0.6);
+  position: absolute;
+  top: 500px;
+}
+
+.car-title {
+  font-size: 17px;
+  position: absolute;
+  left: 216px;
+  top: 503px;
+}
+
+.car-box {
+  position: absolute;
+  left: -22px;
+  top: -20px;
+}
+
+#person_auth {
+  position: absolute;
+  top: 40px;
+  left: 475px;
+  width: 500px;
+  height: 480px;
+}
+
+.person-auth-title {
+  position: absolute;
+  font-size: 18px;
+  top: 58px;
+  left: 697px;
+}
+
+#roll_text {
+  width: 440px;
+  height: 210px;
+  position: absolute;
+  top: 505px;
+  left: 530px;
+  overflow: hidden;
+}
+
+#roll_text p {
+  position: absolute;
+}
